@@ -3,26 +3,33 @@ import json
 import pandas as pd
 import numpy as np
 
+
 def analyze_dataset(file_path):
     try:
         # Try reading as CSV
-        df = pd.read_csv(file_path)
-        
+        df = pd.read_csv(file_path, encoding="utf-8")
+    except UnicodeDecodeError:
+        try:
+            df = pd.read_csv(file_path, encoding="latin1")
+        except Exception:
+            df = pd.read_csv(file_path, encoding="ISO-8859-1")
+
         # Basic stats
         shape = df.shape
         dtypes = {col: str(dtype) for col, dtype in df.dtypes.items()}
-        
+
         # Missing values
         missing = df.isnull().sum()
         missing_dict = missing[missing > 0].to_dict()
-        
+
         # Duplicates
         duplicates = int(df.duplicated().sum())
-        
+
         # Numerical summary
         numeric_df = df.select_dtypes(include=[np.number])
-        summary = numeric_df.describe().to_dict() if not numeric_df.empty else {}
-        
+        summary = numeric_df.describe().to_dict(
+        ) if not numeric_df.empty else {}
+
         # Basic Correlation (only if enough numeric columns)
         correlation = {}
         if len(numeric_df.columns) > 1:
@@ -38,16 +45,17 @@ def analyze_dataset(file_path):
             "numerical_summary": summary,
             "correlation": correlation
         }
-        
+
         print(json.dumps(result))
-        
+
     except Exception as e:
         print(json.dumps({"error": str(e)}), file=sys.stderr)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python analyzer.py <file_path>", file=sys.stderr)
         sys.exit(1)
-        
+
     analyze_dataset(sys.argv[1])
