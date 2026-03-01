@@ -1,4 +1,4 @@
-# 🧠 Data Health Hub — AI Dataset Doctor
+# 🧠 Data HealthHub — AI Dataset Doctor
 
 An intelligent web application that automatically analyzes, diagnoses, and cleans datasets to make them machine-learning ready in seconds.
 
